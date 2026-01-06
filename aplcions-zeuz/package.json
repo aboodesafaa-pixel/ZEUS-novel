@@ -38,5 +38,10 @@
     "react-native-safe-area-context": "~5.6.0",
     "@react-native-async-storage/async-storage": "2.2.0"
   },
+  "overrides": {
+    "react-native-web": {
+      "react": "$react"
+    }
+  },
   "private": true
 }
